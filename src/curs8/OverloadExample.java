@@ -4,7 +4,7 @@ public class OverloadExample {
 
 	public static void main(String[] args) {
 
-		multiply(3, 2.5);
+		multiply(3, 4.8);
 		
 		System.out.println(123);
 		System.out.println("123");
