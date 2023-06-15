@@ -1,5 +1,7 @@
 package curs6;
 
+import java.util.Arrays;
+
 public class ArrayExample {
 
 	public static void main(String[] args) {
@@ -28,6 +30,10 @@ public class ArrayExample {
 			System.out.println(element);
 	
 		}
+		
+		System.out.println("Print :" + textArray);
+		System.out.println(Arrays.toString(textArray));
+		
 	}
 
 }
