@@ -1,5 +1,6 @@
 package curs11;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -27,6 +28,16 @@ public class FindDuplicatesInArray {
 			System.out.println("Nume duplicat :" + nume);
 
 		}
+		
+		System.out.println("---------------------------");
+
+		Set<String> numeDuplicat2 = new HashSet<>(Arrays.asList(names));
+		for(String nume : numeDuplicat2) {
+			System.out.println("Nume duplicat2 :" + nume);
+
+		}
+
+		
 		
 		
 	}

@@ -13,9 +13,24 @@ public class VarargsExample {
 		System.out.println(array);
 		System.out.println(Arrays.toString(array));
 		
+		
+		printGeneric("String", true, 100);
+		printGeneric(20.6, 'c', 100, "String");
+
 
 	}
 
+	public static <T> void printGeneric(T...values) {
+		
+		for(T obj : values) {
+			System.out.println(obj.getClass().getName());
+		}
+	
+	}
+	
+	
+	
+	
 	//executeScript(" script JS", element)
 	//executeScript(" script JS", element, element2)
 	//executeScript(" script JS", element, element2, element3)
