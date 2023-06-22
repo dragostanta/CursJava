@@ -6,8 +6,10 @@ public class TestTextFileProcessor {
 
 		TextFileProcessor txtFile =  new TextFileProcessor();
 		txtFile.writeTxt("Textul scris in fisier din Java!\n");
+		txtFile.readTxt();
+		txtFile.updateTxtFile("Alt text in fisier");
+		txtFile.readTxt();
 
-		
 	}
 
 }
